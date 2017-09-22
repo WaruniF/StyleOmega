@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.prasadini.styleomega.HomeActivity">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/kids_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="Kids Category"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/boy_clothes"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_boy_clothing"
+            android:tag="Kids,Boys" />
+
+        <ImageView
+            android:id="@+id/girl_clothes"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_girl_clothing"
+            android:tag="Kids,Girls"/>
+
+        <ImageView
+            android:id="@+id/kids_accessories"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_kids_accessories"
+            android:tag="Kids,Accessories"/>
+
+        <ImageView
+            android:id="@+id/kids_footwear"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_kids_footwear"
+            android:tag="Kids,Footwear"/>
+
+    </LinearLayout>
+</ScrollView>
+    <include layout="@layout/app_bar_main"/>
+</android.support.constraint.ConstraintLayout>

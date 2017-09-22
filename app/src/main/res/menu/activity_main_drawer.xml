@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sign_in"
+            android:actionLayout="@layout/sign_in"
+            android:title="My Account" />
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/about_us"
+            android:actionLayout="@layout/about_us"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/women"
+                android:actionLayout="@layout/women"
+                android:title="Women" />
+            <item
+                android:id="@+id/men"
+                android:actionLayout="@layout/men"
+                android:title="Men" />
+            <item
+                android:id="@+id/kids"
+                android:actionLayout="@layout/kids_collection"
+                android:title="Kids Collection" />
+        </menu>
+    </item>
+
+    <item android:title="My StyleOmega">
+        <menu>
+            <item
+                android:id="@+id/shopping_cart"
+                android:actionLayout="@layout/shopping_cart"
+                android:title="Shopping Cart" />
+        </menu>
+    </item>
+
+
+
+</menu>

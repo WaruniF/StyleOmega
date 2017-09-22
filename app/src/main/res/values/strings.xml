@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">StyleOmega</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Search</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">REGISTER</string>
+    <string name="suc_login">"Successfully Logged In... Welcome to StyleOmega...!"</string>
+    <string name="action_purchase">Purchase</string>
+
+    <!-- Strings related to login error mesages -->
+    <string name="err_invalid_unORpwd">Sorry, invalid Username or Password...!</string>
+    <string name="err_empty_field">This field is required...!</string>
+
+    <!-- Strings related to register -->
+    <string name="prompt_re_password">Re-enter Password</string>
+    <string name="prompt_firstName">First Name</string>
+    <string name="prompt_lastName">Last Name</string>
+    <string name="prompt_nic">NIC Number</string>
+    <string name="prompt_email">Email Address</string>
+    <string name="prompt_contact">Contact Number</string>
+    <string name="prompt_address">Postal Address</string>
+    <string name="suc_reg">Successfully Registered with Style Omega, Please login to complete the process</string>
+
+    <!-- Strings related to register error mesages -->
+    <string name="err_inuse_username">Username already in use...!</string>
+    <string name="err_invalid_repassword">Re-entered password is incorrect, please enter again</string>
+    <string name="err_inuse_nic">NIC Number already in use...!</string>
+    <string name="err_invalid_email">Invalid email format...!</string>
+    <string name="err_inuse_email">Email Address already in use...!</string>
+    <string name="err_invalid_contact">Invalid contact number format...!</string>
+
+    <!-- Strings related to manage account -->
+    <string name="action_update">UPDATE</string>
+    <string name="text_manageAcc">Manage Account</string>
+    <string name="action_remove">REMOVE</string>
+    <string name="action_checkout">CHECKOUT</string>
+    <string name="suc_up">Succesfully updated your account information</string>
+
+
+    <string name="permission_rationale">"Sign-in permission is required to perform this action...!"</string>
+
+    <string name="women_clothes">Women Clothes</string>
+
+    <string name="spinner_title">Size</string>
+    <string name="sizeInput">Enter a Size</string>
+    <string name="qtyInput">Quantity</string>
+    <string name="addBtn">ADD TO CART</string>
+    <string name="action_inquire">INQUIRE</string>
+    <string name="shareBtn">SHARE</string>
+    <string name="forgotpwd">Forgot your password?</string>
+    <string name="ccInput">Enter your Credit Card Number</string>
+
+    <string name="reviewTxt">Enter your Review</string>
+    <string name="action_UploadR">UPLOAD REVIEW</string>
+    <string name="addRBtn">ADD REVIEW</string>
+
+    <string name="err_invalidSize">Please enter a valid size</string>
+    <string name="err_itemIn">Item with selected size is already in the shopping cart...!</string>
+    <string name="suc_addItem">Succesfully Added to the Cart..!</string>
+    <string name="suc_update">Successfully Updated the quantity...!</string>
+    <string name="suc_remove">Successfully Removed item from the cart...!</string>
+    <string name="err_noItems">No items in the Shopping Cart...!</string>
+
+    <string name="inquiryTxt">Enter your Inquiry</string>
+    <string name="action_UploadInq">UPLOAD INQUIRY</string>
+    <string name="addIBtn">ADD INQUIRY</string>
+
+</resources>

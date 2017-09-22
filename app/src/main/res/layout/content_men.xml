@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.prasadini.styleomega.HomeActivity">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/men_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="Men's Category"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/men_shirt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_shirt"
+            android:tag="Men,Shirts" />
+
+        <ImageView
+            android:id="@+id/men_tshirt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_tshirt"
+            android:tag="Men,TShirts"/>
+
+        <ImageView
+            android:id="@+id/men_pant"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_men_pants"
+            android:tag="Men,Pants"/>
+
+        <ImageView
+            android:id="@+id/men_short"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_shorts"
+            android:tag="Men,Shorts"/>
+
+        <ImageView
+            android:id="@+id/men_accessory"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_men_accessories"
+            android:tag="Men,Accessories"/>
+
+        <ImageView
+            android:id="@+id/men_footwear"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:onClick="gotoItems"
+            android:src="@drawable/banner_men_footwear"
+            android:tag="Men,Footwear"/>
+
+    </LinearLayout>
+</ScrollView>
+    <include layout="@layout/app_bar_main"/>
+</android.support.constraint.ConstraintLayout>

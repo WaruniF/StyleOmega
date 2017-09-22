@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.prasadini.styleomega.HomeActivity">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/women_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="Women's Category"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/women_dress"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:onClick="gotoItems"
+        android:src="@drawable/banner_dress"
+        android:tag="Women,Dresses" />
+
+    <ImageView
+        android:id="@+id/women_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:onClick="gotoItems"
+        android:src="@drawable/banner_tops"
+        android:tag="Women,Tops" />
+
+    <ImageView
+        android:id="@+id/women_pant"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:onClick="gotoItems"
+        android:src="@drawable/banner_women_pant"
+        android:tag="Women,Pants"/>
+
+    <ImageView
+        android:id="@+id/women_skirt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:onClick="gotoItems"
+        android:src="@drawable/banner_skirt"
+        android:tag="Women,Skirts"/>
+
+    <ImageView
+        android:id="@+id/women_accessory"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:onClick="gotoItems"
+        android:src="@drawable/banner_women_accessories"
+        android:tag="Women,Accessories"/>
+
+    <ImageView
+        android:id="@+id/women_footwear"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:onClick="gotoItems"
+        android:src="@drawable/banner_women_footwear"
+        android:tag="Women,Footwear"/>
+
+</LinearLayout>
+</ScrollView>
+    <include layout="@layout/app_bar_main"/>
+</android.support.constraint.ConstraintLayout>
